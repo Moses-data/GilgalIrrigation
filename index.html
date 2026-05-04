@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gilal Irrigation & Landscape Services</title>
+  <meta name="description" content="Professional landscape and irrigation services for homes and businesses." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a href="#home" class="logo">Gilal<span>Irrigation</span></a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Landscape Service Business</p>
+          <h1>Beautiful Lawns, Smart Irrigation, Reliable Service</h1>
+          <p class="lead">We design, install, and maintain efficient irrigation systems and outdoor spaces that keep your property healthy and attractive year-round.</p>
+          <a href="#contact" class="btn">Get a Free Quote</a>
+        </div>
+        <div class="hero-image-wrap">
+          <img src="Services_01.png" alt="Landscape and irrigation service work" class="hero-image" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div class="image-card">
+          <img src="About_01.png" alt="About our landscape team" />
+        </div>
+        <div>
+          <h2>About Us</h2>
+          <p>At Gilal Irrigation, we help property owners create and maintain clean, green, and water-efficient landscapes. Our focus is quality workmanship, clear communication, and long-term value for every client.</p>
+          <ul class="checklist">
+            <li>Experienced local crew</li>
+            <li>On-time, professional service</li>
+            <li>Residential and commercial projects</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section muted">
+      <div class="container">
+        <h2 class="center">Our Services</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="Services_01.png" alt="Irrigation installation" />
+            <h3>Irrigation Installation</h3>
+            <p>Custom irrigation setups designed for maximum coverage and water efficiency.</p>
+          </article>
+          <article class="card">
+            <img src="Services_02.png" alt="Landscape maintenance" />
+            <h3>Landscape Maintenance</h3>
+            <p>Routine care including lawn health checks, seasonal cleanups, and system tune-ups.</p>
+          </article>
+          <article class="card">
+            <img src="Services_01.png" alt="Repair and upgrades" />
+            <h3>Repair & Upgrades</h3>
+            <p>Fast diagnosis and repair of leaks, broken sprinklers, controllers, and aging systems.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-box">
+        <div>
+          <h2>Let’s Work on Your Landscape</h2>
+          <p>Call us today or send us a message to schedule a free site visit and quote.</p>
+        </div>
+        <div class="contact-info">
+          <p><strong>Phone:</strong> +1 (587) 716-4022</p>
+          <p><strong>Email:</strong> gilalirrigation@gmail.com</p>
+          <p><strong>Location:</strong> Calgary, Alberta</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Gilal Irrigation. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
